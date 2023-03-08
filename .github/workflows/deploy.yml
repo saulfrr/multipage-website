@@ -1,13 +1,10 @@
-
- name: Deploy
+name: Deploy
 
 on: push
 
 env:
   applicationfolder: multi
   AWS_REGION: eu-central-1
-  ##S3BUCKET: ##s3-bucket## 
-
 
 jobs:     
   deploy:
