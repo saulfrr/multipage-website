@@ -1,6 +1,8 @@
 name: Deploy
 
-on: push
+on: 
+  push:
+    branches: [ main ]
 
 env:
   applicationfolder: multi
@@ -9,7 +11,7 @@ env:
 jobs:     
   deploy:
     runs-on: ubuntu-latest
-    environment: Dev
+    #environment: Dev
     permissions:
       id-token: write
       contents: read
