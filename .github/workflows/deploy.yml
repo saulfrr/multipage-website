@@ -1,10 +1,7 @@
 
  name: Deploy
 
-on:
-    push:
-    branches: [ main ]
-  pull_request:
+on: push
 
 env:
   applicationfolder: multi
