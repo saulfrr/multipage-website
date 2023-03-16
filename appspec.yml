@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: .
-    destination: /var/www/development/theempire.app/
+    destination: /var/www/theempire.app/
 permissions:
-  - object: /var/www/development/theempire.app/
+  - object: /var/www/theempire.app/
     owner: www-data
     group: www-data
     mode: 755
